@@ -64,7 +64,9 @@ body{
   height: 50px;
   padding: 10px;
   width: 300px;
-  border-radius: 10px;
+  /* border-radius: 5px; */
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 select{
@@ -84,7 +86,9 @@ input:focus, select:focus{
   background-color: #a459f4;
   color: white;
   border: none;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   cursor: pointer;
 }
 

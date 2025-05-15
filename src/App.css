@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.todo-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.task-input,
+.task-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.task-input input,
+.task-filter button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Task list */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+}
+
+.task-item.urgent {
+    background-color: #ffdddd;
+}
+
+.task-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-deadline {
+    font-size: 14px;
+    color: #777;
+}
+
+.task-deadline.urgent-text {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 8px;
+}
